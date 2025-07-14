@@ -8,7 +8,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/engagement" element={<EngagementPage />} />
+        <Route path="/" element={<EngagementPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
