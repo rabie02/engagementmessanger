@@ -4,7 +4,7 @@ export function loadEngagementMessenger() {
   script.async = true;
   script.onload = () => {
     window.SN_CSM_EC?.init({
-      moduleID: "https://dev223729.service-now.com/#0f2361d3c3662210255c5b2ed401316f",
+      moduleID: "0f2361d3c3662210255c5b2ed401316f",
       loadFeature: window.SN_CSM_EC?.loadEMFeature()
     });
   };
